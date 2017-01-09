@@ -9,7 +9,7 @@ sharing: true
 footer: true
 ---
 
-After loading, the bootstrapper will call `setup(hass, config)` method on the component to initialize it.
+After loading, the bootstrapper will call `setup_platform(hass, config)` method on the component to initialize it.
 
 ### {% linkable_title hass: the Home Assistant instance %}
 
